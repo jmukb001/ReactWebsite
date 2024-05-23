@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <div id="contact"></div>
-      <a href="https:/www.linkedin.com/in/jad-mukbel" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/jad-mukbel" target="_blank" rel="noopener noreferrer">
         <img className="small-image" src="./LinkedIn.png" alt="LinkedIn Icon" />
       </a>
       
