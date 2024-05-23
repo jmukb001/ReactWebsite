@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.about-content,
+.education,
+.skills,
+.extracurriculars-container,
+.projects-container {
+    max-width: 800px; /* Set the desired width */
+    width: 90%;
+}
+
+/* Adjusting for smaller screens */
+@media (max-width: 768px) {
+    .about-content,
+    .education,
+    .skills,
+    .extracurriculars-container,
+    .projects-container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}

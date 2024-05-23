@@ -1,0 +1,29 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 125vh;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.3s ease, transform 0.1s ease-out, filter 0.3s ease; 
+  z-index: -1;
+  transform: rotate(var(--rotation)) scale(var(--scale));
+  filter: hue-rotate(var(--hue-rotation)); 
+  animation: bobble 8s ease-in-out infinite;
+}
+
+@keyframes bobble {
+  0%, 100% {
+    transform: rotate(var(--rotation)) scale(var(--scale));
+  }
+  25% {
+    transform: rotate(calc(var(--rotation) + 5deg)) scale(calc(var(--scale) * 1.05)); /* clockwise rotation and 5% larger */
+  }
+  50% {
+    transform: rotate(var(--rotation)) scale(var(--scale)); /* back to current transform */
+  }
+  75% {
+    transform: rotate(calc(var(--rotation) - 5deg)) scale(calc(var(--scale) * 1.05)); /* counterclockwise rotation and 5% larger */
+  }
+}
