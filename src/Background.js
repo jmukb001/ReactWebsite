@@ -35,7 +35,7 @@ const Background = () => {
         '--rotation': `${rotation}deg`,
         '--scale': scale,
         '--hue-rotation': `${hueRotation}deg`,
-        backgroundImage: `url('/newBackground.png')`,
+        backgroundImage: `url('./newBackground.png')`,
       }}
     />
   );

@@ -14,7 +14,7 @@ const Hero = () => {
           </p>
           <div className="social-icons">
             <a href="https:/www.linkedin.com/in/jad-mukbel" target="_blank" rel="noopener noreferrer">
-              <img src="L./inkedIn.png" alt="LinkedIn" className="social-icon" />
+              <img src="./inkedIn.png" alt="LinkedIn" className="social-icon" />
             </a>
             <a href="https://github.com/jmukb001" target="_blank" rel="noopener noreferrer">
               <img src="./github.png" alt="Github" className="social-icon" />

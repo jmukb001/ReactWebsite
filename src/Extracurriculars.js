@@ -8,7 +8,7 @@ const Extracurriculars = () => {
         <div className="extracurriculars-wrapper">
           <h2 className="extracurriculars-title">Extracurriculars</h2>
           <div className="extracurricular">
-            <img src="./MSAWLogo.png" alt="Volunteer 1" className="extracurricular-photo" />
+            <img src="./MSAWLOGO.png" alt="Volunteer 1" className="extracurricular-photo" />
             <div className="extracurricular-details">
               <h3 className="extracurricular-title">Southern California Director, Board of Directors</h3>
               <div className="extracurricular-metadata">
@@ -34,7 +34,7 @@ const Extracurriculars = () => {
 
           <hr className="extracurriculars-divider" />
           <div className="extracurricular">
-            <img src="./ISCNLOGO.png" alt="Volunteer 3" className="extracurricular-photo" />
+            <img src="./ISCNLOGO.png" alt="Volunteer 2" className="extracurricular-photo" />
             <div className="extracurricular-details">
               <h3 className="extracurricular-title">Youth Director</h3>
               <div className="extracurricular-metadata">
