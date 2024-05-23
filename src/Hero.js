@@ -7,7 +7,7 @@ const Hero = () => {
     <div id="hero">
       <div className="hero">
         <div className="hero-content">
-          <img src="/MyPhoto.png" alt="Jad Mukbel" className="hero-photo" />
+          <img src="./MyPhoto.png" alt="Jad Mukbel" className="hero-photo" />
           <h1 className="hero-name">Hello, I'm Jad Mukbel!</h1>
           <p className="hero-description">
             Current Computer Science Undergraduate at the University of California, Riverside.

@@ -37,7 +37,7 @@ experience with perception of imposter syndrome.</p>
 
           <hr className="project-divider" />
           <div className="project">
-            <img src="./frankie.png" alt="Frankie-Discord Bot" className="project-photo" />
+            <img src="./Frankie.png" alt="Frankie-Discord Bot" className="project-photo" />
             <div className="project-details">
               <h3 className="project-title">Tamabotchi</h3>
               <div className="project-metadata">
