@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="projects-wrapper">
           <h2 className="projects-title">Projects</h2>
           <div className="project">
-            <img src="/wildfires.png" alt="California Wildfire Map" className="project-photo" />
+            <img src="./wildfires.png" alt="California Wildfire Map" className="project-photo" />
             <div className="project-details">
               <h3 className="project-title">Wildfire Analysis</h3>
               <div className="project-metadata">
@@ -37,7 +37,7 @@ experience with perception of imposter syndrome.</p>
 
           <hr className="project-divider" />
           <div className="project">
-            <img src="/frankie.png" alt="Frankie-Discord Bot" className="project-photo" />
+            <img src="./frankie.png" alt="Frankie-Discord Bot" className="project-photo" />
             <div className="project-details">
               <h3 className="project-title">Tamabotchi</h3>
               <div className="project-metadata">
