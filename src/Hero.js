@@ -13,7 +13,7 @@ const Hero = () => {
             Current Computer Science Undergraduate at the University of California, Riverside.
           </p>
           <div className="social-icons">
-            <a href="https://www.linkedin.com/jad-mukbel" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/jad-mukbel" target="_blank" rel="noopener noreferrer">
               <img src="./LinkedIn.png" alt="LinkedIn" className="social-icon" />
             </a>
             <a href="https://github.com/jmukb001" target="_blank" rel="noopener noreferrer">
